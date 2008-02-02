@@ -2,7 +2,7 @@ Summary:	Screenshooter plugin for Xfce panel
 Summary(pl.UTF-8):	Wtyczka screenshooter dla panelu Xfce
 Name:		xfce4-screenshooter-plugin
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://goodies.xfce.org/releases/xfce4-screenshooter-plugin/%{name}-%{version}.tar.bz2
@@ -26,6 +26,7 @@ Ta wtyczka pozwala zrobić zrzut ekranu.
 %setup -q
 
 %build
+%{__intltoolize}
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
