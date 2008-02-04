@@ -10,6 +10,7 @@ Source0:	http://goodies.xfce.org/releases/xfce4-screenshooter-plugin/%{name}-%{v
 URL:		http://goodies.xfce.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	intltool
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRequires:	xfce4-dev-tools >= 4.4.0
